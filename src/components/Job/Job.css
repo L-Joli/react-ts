@@ -1,0 +1,144 @@
+.jobsWrap {
+    margin-right: 35px;
+    width: 40%;
+    max-width: 345px;
+}
+
+.jobBlock {
+    border-radius: 5px;
+    border: 1px solid #E1E1E1;
+    display: flex;
+    align-items: flex-start;
+    flex-flow: column;
+    padding: 20px 15px;
+    margin-bottom: 20px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.flex {
+    display: flex;
+}
+
+.promote {
+    background-color: #418BA0;
+}
+
+.new {
+    background-color: #FDAC22;
+}
+
+.tagStyle {
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+.tagStyle img {
+    height: 20px;
+    margin-right: 5px;
+}
+
+.jobTitle {
+    color: #104351;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.jobDescription {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    color: #333333;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.jobAuthor {
+    font-size: 14px;
+    color: #555555;
+    margin-bottom: 8px;
+}
+
+.jobType {
+    color: #8A8A8A;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.jobTag {
+    color: #418BA0;
+    background-color: #F5F5F5;
+    font-size: 14px;
+}
+
+.greyBorder {
+    border-bottom: 1px solid #E1E1E1;
+    padding-bottom: 8px;
+    width: 100%;
+}
+
+.jobBoxFooter {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 14px;
+    margin-top: 8px;
+    align-items: center;
+}
+
+.locationWrap {
+    display: flex;
+    align-items: center;
+    color: #333333;
+}
+
+.location {
+    margin-right: 6px;
+    height: 24px;
+}
+
+.date {
+    color: #8A8A8A;
+}
+
+.jobsWrap button {
+    border-radius: 5px;
+    border: 1px solid #E1E1E1;
+    background-color: white;
+    color: #00A6A8;
+    font-size: 16px;
+    padding: 9px 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    .jobDetails {
+        display: none;
+    }
+    .jobsWrap {
+        width: 100%;
+        max-width: max-content;
+    }
+    .jobsBlock {
+        width: 100%;
+    }
+    .jobBlock {
+        border-radius: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        margin-bottom: 0px;
+        background-color: #fff;
+    }
+    .jobsWrap button {
+        margin-top: 40px;
+    }
+    .filterPannel {
+        display: none;
+    }
+
+}

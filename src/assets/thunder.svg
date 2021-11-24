@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon/Hot Copy</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01" transform="translate(-12.000000, -4.000000)">
+            <g id="Group" transform="translate(10.000000, 2.000000)">
+                <rect id="Rectangle" fill="#D8D8D8" opacity="0" x="0" y="0" width="24" height="24"></rect>
+                <path d="M12,2 C17.5200005,2 22,6.48000002 22,12 C22,17.5200005 17.5200005,22 12,22 C6.57355934,22 2.15216317,17.6705779 2.00384421,12.2797649 L2,12 C2,6.48000002 6.48000002,2 12,2 Z M12,4 C7.59000015,4 4,7.59000015 4,12 C4,16.3267923 7.45580648,19.8642364 11.7512717,19.9961845 L12,20 L12.2487283,19.9961845 C16.5441935,19.8642364 20,16.3267923 20,12 C20,7.59000015 16.4099998,4 12,4 Z M15.5475103,7 L13.4991002,10.589484 L16,10.589484 L10.6003173,19 L11.1250257,13.3813049 L8,13.3813049 L11.7457472,7 L15.5475103,7 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>
